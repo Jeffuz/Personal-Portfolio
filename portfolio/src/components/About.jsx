@@ -15,14 +15,13 @@ const About = () => {
             </div>
             {/* Description */}
             <div className='max-w-[800px] mt-[-96px] w-full h-screen text-left flex flex-col mx-auto justify-center'>
-                <h1 className='text-[#42C2FF] font-poppins text-6xl font-bold leading-16 mx-6'>Hello, I'm Jeff Zhang.</h1>
-                <h3 className='text-[#42C2FF] font-poppins text-2xl font-light leading-[266.667%] mx-6'>Student</h3>
-                <p className='text-[#42C2FF] font-poppins text-xl font-medium leading-[210%] mx-6'> I am a forth year student studying Computer Engineering
+                <h1 className='text-[#42C2FF] font-poppins text-6xl font-bold leading-16 mx-8'>Hello, I'm Jeff Zhang.</h1>
+                <h3 className='text-[#42C2FF] font-poppins text-2xl font-light leading-[266.667%] mx-8'>Student</h3>
+                <p className='text-[#42C2FF] font-poppins text-xl font-medium leading-[210%] mx-8'> I am a fourth year student studying Computer Engineering
                     at <span className='text-[#85F4FF]'>UC Santa Cruz</span>.
-                    I am seeking a full stack developer role with an opportunity to use my skills
-                    in developing web applications and software solutions.
+                    My passion lies in crafting web apps and software solutions from scratch. Currently seeking a Web Developer role to put my skills into action and make an impact. Let's build something amazing together!
                 </p>
-                <button className='bg-[#85F4FF] w-[200px] rounded-md font-medium my-6 px-6 py-3 mx-6'>Contact Me</button>
+                <button className='bg-[#85F4FF] w-[200px] rounded-md font-medium my-6 px-6 py-3 mx-8' onClick={() => window.location.href = 'mailto:jeffzhang0049@gmail.com'} style={{ zIndex: 1 }}>Contact Me</button>
             </div>
         </div>
     )
