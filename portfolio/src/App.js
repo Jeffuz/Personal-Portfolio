@@ -1,13 +1,18 @@
 import './App.css';
 import React from 'react';
-import Navbar from './components/Navbar';
-import About from './components/about';
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+
+import Home from './pages/home';
 
 function App() {
   return (
     <div>
-      <Navbar/>
-      <About/>
+      <BrowserRouter>
+        <Routes>
+          <Route index element={<Home />} />
+          {/* <Route path="*" element={<NoPage />} /> */}
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
