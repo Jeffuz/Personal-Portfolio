@@ -12,7 +12,7 @@ import Contact from './pages/contact';
 function App() {
   return (
     <div>
-      <BrowserRouter>
+      <BrowserRouter basename="/Personal-Portfolio">
         <Routes>
           <Route index element={<Home />} />
           <Route path="/experience" element={<Experience />} />
