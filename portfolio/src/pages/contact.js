@@ -1,45 +1,69 @@
 import React from "react";
 import Navbar from "../components/Navbar";
+import { useForm } from '@formspree/react';
 
 export default function Contact() {
+    const [state, handleSubmit] = useForm("mnqkjbbr");
+
     return (
         <div>
             <Navbar />
-            <section className="py-16 lg:section">
-                <div className="container mx-auto">
-                    <div className="flex flex-col lg:flex-row">
-                        {/* text */}
-                        <div className="flex-1 flex justify-start items-center">
-                            <div>
-                                <h4 className="text-xl uppercase text-accent font-medium mb-2 tracking-wide">Get in touch</h4>
-                                <h2 className="text-[45px] lg:text-[90px] leading-none mb-12">Let's work <br /> together!
-                                </h2>
-                            </div>
+            <div className="mt-[17.5%] md:mt-[7.5%] flex items-center justify-center ">
+                <div className="bg-white shadow-lg rounded-lg p-6 max-w-md w-full">
+                    <h2 className="text-3xl font-semibold mb-6">Get in Touch</h2>
+                    <form onSubmit={handleSubmit}>
+                        {/* Name */}
+                        <div className="mb-4">
+                            <label className="block text-gray-700 text-sm font-bold mb-2">
+                                Name
+                            </label>
+                            <input
+                                name="name"
+                                type="text"
+                                className="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                                placeholder="Your Name"
+                                required
+                            />
                         </div>
-                        {/* form */}
-                        <form className="flex-1 border rounded-2xl flex flex-col gap-y-6 pb-24 p-6 itmes-start">
+                        {/* Email */}
+                        <div className="mb-4">
+                            <label className="block text-gray-700 text-sm font-bold mb-2">
+                                Email
+                            </label>
                             <input
-                                className="bg-transparent border-b py-3 outline-none w-full placeholder:text-[#42C2FF] focus:border-accent transition-all"
-                                type='text'
-                                placeholder="Your name"
-                            >
-                            </input>
-                            <input
-                                className="bg-transparent border-b py-3 outline-none w-full placeholder:text-[#42C2FF] focus:border-accent transition-all"
-                                type='text'
-                                placeholder="Your email"
-                            >
-                            </input>
+                                type="email"
+                                name="email"
+                                className="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                                placeholder="Your Email"
+                                required
+                            />
+                        </div>
+                        {/* Message */}
+                        <div className="mb-4">
+                            <label className="block text-gray-700 text-sm font-bold mb-2">
+                                Message
+                            </label>
                             <textarea
-                                className="bg-transparent border-b py-3 outline-none w-full placeholder:text-[#42C2FF] focus:border-accent transition-all resize-none mb-12"
-                                placeholder="Your message"
+                                name="message"
+                                className="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline resize-none h-32"
+                                placeholder="Your Message"
+                                required
+                            />
+                        </div>
+                        {/* Button */}
+                        <div className="flex justify-center text-white">
+                            <button
+                                type='submit'
+                                className='bg-[#85F4FF] hover:bg-[#42C2FF] hover:text-white duration-300 ease-in-out shadow-lg w-[200px] rounded-md font-medium my-6 px-6 py-3 mx-8'
+                                disabled={state.submitting}
                             >
-                            </textarea>
-                            <button className='bg-[#85F4FF] hover:bg-[#42C2FF] hover:text-[#EFFFFD] text-white duration-300 ease-in-out shadow-lg w-[200px] rounded-md font-medium px-6 py-3'>Send message</button>
-                        </form>
-                    </div>
-                </div>
-            </section>
+                                {state.submitting ? 'Submitting...' : 'Submit'}
+                            </button>
+
+                        </div>
+                    </form>
+                </div >
+            </div>
         </div>
     )
 }

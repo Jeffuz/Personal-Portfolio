@@ -55,7 +55,7 @@ const Navbar = () => {
                     style={{ zIndex: 2 }}
                 >
                     <h1 className='w-full text-3xl font-bold m-4 pl-1'>JEFF ZHANG.</h1>
-                    <ul className='px-4'>
+                    <ul className='px-4 font-bold'>
                         <li className='p-4 border-b '>
                             <Link to="/home">
                                 HOME
