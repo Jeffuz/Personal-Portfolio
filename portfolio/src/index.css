@@ -5,3 +5,11 @@
 body {
   background-color: #EFFFFD;
 }
+
+.icon-link {
+  transition: transform 0.2s ease-in-out;
+}
+
+.icon-link:hover {
+  transform: rotate(-15deg);
+}
