@@ -54,7 +54,7 @@ export default function Contact() {
                         <div className="flex justify-center text-white">
                             <button
                                 type='submit'
-                                className='bg-[#85F4FF] hover:bg-[#42C2FF] hover:text-white duration-300 ease-in-out shadow-lg w-[200px] rounded-md font-medium my-6 px-6 py-3 mx-8'
+                                className='bg-[#42C2FF] text-white shadow-lg w-[200px] rounded-md font-bold my-6 px-6 py-3 mx-8 tracking-wide'
                                 disabled={state.submitting}
                             >
                                 {state.submitting ? 'Submitting...' : 'Submit'}
