@@ -1,9 +1,12 @@
-import React from "react";
+import React from 'react'
+import expCard from '../components/expCard'
 
-export default function Experience() {
+const experience = () => {
     return (
-        <div>
-            
+        <div className='bg-white'>
+            Hi
         </div>
     )
 }
+
+export default experience

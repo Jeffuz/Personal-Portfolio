@@ -1,6 +1,6 @@
 import './App.css';
 import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { Routes, Route, HashRouter } from 'react-router-dom'
 
 import Home from './pages/home';
 import NoPage from './pages/NoPage';
@@ -13,17 +13,19 @@ import Navbar from './components/Navbar';
 function App() {
   return (
     <div>
-      <BrowserRouter>
+      <HashRouter>
         <Navbar />
         <Routes>
           <Route index element={<Home />} />
+          <Route path='/' element={<Home />} />
+          <Route path="/Personal-Portfolio" element={< Home />} />
           <Route path="/experience" element={<Experience />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<NoPage />} />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }
