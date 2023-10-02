@@ -8,11 +8,13 @@ import Experience from './pages/experience';
 import Projects from './pages/projects';
 import Resume from './pages/resume';
 import Contact from './pages/contact';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
     <div>
       <BrowserRouter>
+        <Navbar />
         <Routes>
           <Route index element={<Home />} />
           <Route path="/experience" element={<Experience />} />

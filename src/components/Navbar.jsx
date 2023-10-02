@@ -49,8 +49,8 @@ const Navbar = () => {
                     {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
                 </div>
                 <div className={nav
-                    ? 'md:hidden fixed left-0 top-0 w-[50%] h-full border-r border-r-gray-100  bg-[#EFFFFD] ease-in-out duration-500'
-                    : 'fixed left-[-100%] top-0 w-[50%] h-full border-r border-r-gray-100  bg-[#EFFFFD] ease-in-out duration-500'
+                    ? 'md:hidden fixed left-0 top-0 w-[50%] h-full border-r border-r-gray-100  bg-[#262B30] ease-in-out duration-500'
+                    : 'fixed left-[-100%] top-0 w-[50%] h-full border-r border-r-gray-100  bg-[#262B30] ease-in-out duration-500'
                 }
                     style={{ zIndex: 2 }}
                 >
