@@ -1,10 +1,13 @@
 import React from 'react'
-import expCard from '../components/expCard'
+import experienceData from '../data/expData.json'
+import ExpCard from '../components/expCard'
 
 const experience = () => {
     return (
-        <div className='bg-white'>
-            Hi
+        <div>
+            {experienceData.map((expDetail) => (
+                <ExpCard key={expDetail.id} {...expDetail} />
+            ))}
         </div>
     )
 }

@@ -1,9 +1,19 @@
 import React from 'react'
 
-const expCard = () => {
-  return (
-    <div>expCard</div>
-  )
+const ExpCard = ({ name, location, time, role, duties }) => {
+    return (
+        <div>
+            <div>{name}</div>
+            <div>{location}</div>
+            <div>{time}</div>
+            <div>{role}</div>
+            <ul className="list-disc pl-6 mt-2">
+                {Object.values(duties).map((duty, index) => (
+                    <li key={index} className="">{duty}</li>
+                ))}
+            </ul>
+        </div>
+    )
 }
 
-export default expCard
+export default ExpCard
