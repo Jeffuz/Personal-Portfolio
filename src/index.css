@@ -13,3 +13,7 @@ body {
 .icon-link:hover {
   transform: rotate(-15deg);
 }
+
+body {
+  overflow: hidden; 
+}
