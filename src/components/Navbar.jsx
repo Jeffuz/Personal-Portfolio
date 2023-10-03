@@ -45,7 +45,7 @@ const Navbar = () => {
                         </Link>
                     </li>
                 </ul>
-                <div onClick={handleNav} className='block md:hidden'>
+                <div onClick={handleNav} className='block md:hidden '>
                     {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
                 </div>
                 <div className={nav
@@ -54,10 +54,12 @@ const Navbar = () => {
                 }
                     style={{ zIndex: 2 }}
                 >
-                    <h1 className='w-full text-3xl font-bold m-4 pl-1'>JEFF ZHANG.</h1>
+                    <h1 className='w-full text-3xl font-bold m-4 pl-1'>
+                        <Link to={"/"}>JEFF ZHANG.</Link>
+                    </h1>
                     <ul className='px-4 font-bold'>
                         <li className='p-4 border-b '>
-                            <Link to="/home">
+                            <Link to="/">
                                 HOME
                             </Link>
                         </li>
