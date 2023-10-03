@@ -9,7 +9,8 @@
             "1": "Developed and launched a dynamic website for a school gaming club using React and Tailwind CSS, resulting in an impressive 1000%+ increase in site visitors.",
             "2": "Leveraged Figma for design and prototyping, ensuring an intuitive user interface.",
             "3": "Collaborated closely with the design team to translate wireframes into engaging user experiences."
-        }
+        },
+        "icon": "GiGraspingSlug"
     },
     {
         "id": "OFA",
@@ -21,6 +22,7 @@
             "1": "Created a website that effectively raised awareness about littering issues in San Francisco, utilizing HTML, CSS and Javascript for front-end development.",
             "2": "Engaged in cross-functional meetings with Google employees from various departments, gaining valuable insights into the tech industry.",
             "3": "Actively participated in job readiness and career development workshops."
-        }
+        },
+        "icon": "FaGoogle"
     }
 ]
