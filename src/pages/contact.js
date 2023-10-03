@@ -19,7 +19,7 @@ export default function Contact() {
                             <input
                                 name="name"
                                 type="text"
-                                className="appearance-none border rounded w-full py-2 px-3 text-[#42C2FF] leading-tight focus:outline-none focus:shadow-outline"
+                                className="appearance-none border rounded w-full py-2 px-3 text-black leading-tight focus:outline-none focus:shadow-outline"
                                 placeholder="Your Name"
                                 required
                             />
@@ -32,7 +32,7 @@ export default function Contact() {
                             <input
                                 type="email"
                                 name="email"
-                                className="appearance-none border rounded w-full py-2 px-3 text-[#42C2FF] leading-tight focus:outline-none focus:shadow-outline"
+                                className="appearance-none border rounded w-full py-2 px-3 text-black leading-tight focus:outline-none focus:shadow-outline"
                                 placeholder="Your Email"
                                 required
                             />
@@ -44,7 +44,7 @@ export default function Contact() {
                             </label>
                             <textarea
                                 name="message"
-                                className="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline resize-none h-32"
+                                className="appearance-none border rounded w-full py-2 px-3 text-black leading-tight focus:outline-none focus:shadow-outline resize-none h-32"
                                 placeholder="Your Message"
                                 required
                             />
