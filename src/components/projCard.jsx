@@ -18,7 +18,7 @@ const ProjCard = ({ name, content, tags, image, github, web }) => {
                         <div className='text-[#42C2FF] text-lg font-semibold'>{content}</div>
                         <div className='flex gap-5 pt-3'>
                             {Object.values(tags).map((tag) => (
-                                <div className='text-[#85F4FF] font-semibold'>{tag}</div>
+                                <div className='text-[#85F4FF] font-semibold italic'>{tag}</div>
                             ))}
                         </div>
                         <div className='pt-3 flex gap-5'>
