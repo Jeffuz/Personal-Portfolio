@@ -11,7 +11,7 @@ const ProjCard = ({ name, content, tags, image, github, web }) => {
             exit={{ opacity: [1, 0] }}
             transition={{ duration: 1 }}
         >
-            <div className='grid md:grid-cols-2 grid-cols-1 gap-10 px-20 py-12'>
+            <div className='grid lg:grid-cols-2 grid-cols-1 gap-10 px-20 py-12'>
                 <div className='flex flex-col justify-center'>
                     <div className='text-[#42C2FF] font-bold text-5xl'>{name}</div>
                     <div className='pt-5'>
