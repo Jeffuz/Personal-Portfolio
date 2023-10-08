@@ -33,7 +33,7 @@ export default function Resume() {
             <div className="flex flex-col">
                 <div className="flex justify-center mt-2">
                     <button
-                        className="bg-[#42C2FF] text-white py-2 px-4 rounded ml-2 mr-4 "
+                        className="bg-[#42C2FF] text-white py-2 px-4 rounded ml-2 mr-4 font-semibold"
                         onClick={toggleResume}
                     >
                         Toggle Resume ({resumeType})

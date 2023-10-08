@@ -1,0 +1,42 @@
+[
+    {
+        "id": "edutrade",
+        "name": "EduTrade",
+        "contant": "The web application is a website where students can post their used school supplies to give away or sell to other users in the local area. Users can create listenings and publishings for people to see, private live chat between 2 users, post on the discussion form and search for specific items with location filtering.",
+        "tags": {
+            "1": "React.js",
+            "2": " Tailwind CSS",
+            "3": "Firebase"
+        },
+        "image": "/edutrade.png"
+    },
+    {
+        "id": "fitflow",
+        "name": "FitFlow",
+        "content": "FitFlow is a website that uses the OpenAI api to generate customized workouts, nutrtion and exercise recommendation. Users fill out a questionnaire that asks them various questions, about goals, lifestyle, and what they are aiming for.",
+        "tags": {
+            "1": "React.js",
+            "2": " Tailwind CSS"
+        },
+        "image": "/FitFlow.png"
+    },
+    {
+        "id": "pantry-pals",
+        "name": "Pantry Pals",
+        "content": "Pantry Pals is a recipe web app that enables ingredient-based recipe searches, user profiles, recipe information. This platform simplifies meal planning by allowing users to search for recipes based on their available ingredients.",
+        "tags": {
+            "1": "React.js",
+            "2": " Tailwind CSS",
+            "3": "Flask",
+            "4": "MongoDB"
+        },
+        "image": "/pantry-pal.png"
+    },
+    {
+        "id": "multithreaded-httpserver",
+        "name": "Multi-threaded HTTP Server",
+        "content": "A Multi-threaded HTTP server that can handle multiple GET and PUT requests simultaneously and creates an audit log that identifies the linearization of the server.",
+        "tags": "C",
+        "image": "/multithreaded.png"
+    }
+]
