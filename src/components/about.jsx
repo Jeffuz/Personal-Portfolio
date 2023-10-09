@@ -15,7 +15,7 @@ const About = () => {
             >
                 {/* Background Image */}
                 <div className='absolute bottom-0 w-full'>
-                    <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 320'>
+                    <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 320' className='sm:block hidden'>
                         <path
                             fill='#9EDDFF'
                             fill-opacity='1'
@@ -24,7 +24,7 @@ const About = () => {
                     </svg>
                 </div>
                 {/* Description */}
-                <div className='max-w-[800px] mt-[-96px] w-full h-screen text-left flex flex-col mx-auto justify-center'>
+                <div className='max-w-[800px] mt-[-96px] w-full h-screen text-left flex flex-col mx-auto justify-center max-[635px]:mt-[-40px] max-[445px]:mt-[-50px] max-[380px]:mt-[45px] max-[315px]:mt-[100px] max-[280px]:mt-[150px]'>
                     <h1 className='text-[#42C2FF] font-poppins text-6xl font-bold leading-16 mx-8'>Hello, I'm Jeff Zhang. </h1>
                     <h3 className='text-[#42C2FF] font-poppins text-2xl font-light leading-[266.667%] mx-8'>
                         <span>I am </span>
@@ -44,9 +44,9 @@ const About = () => {
                         at <span className='text-[#85F4FF]'>UC Santa Cruz</span>.
                         My passion lies in crafting web apps and software solutions from scratch. Currently seeking a Web Developer role to put my skills into action and make an impact. Let's build something amazing together!
                     </p>
-                    <div className='flex items-center class'>
-                        <button className='bg-[#42C2FF] text-white shadow-lg w-[200px] rounded-md font-bold my-6 px-6 py-3 mx-8 tracking-wide' onClick={() => window.location.href = 'mailto:jeffzhang0049@gmail.com'} style={{ zIndex: 1 }}>Contact Me</button>
-                        <div className='flex text-gray-400 ' style={{ zIndex: 1 }}>
+                    <div className='flex sm:flex-row flex-col items-center class'>
+                        <button className=' bg-[#42C2FF] text-white shadow-lg w-[200px] rounded-md font-bold my-6 px-6 py-3 mx-8 tracking-wide' onClick={() => window.location.href = 'mailto:jeffzhang0049@gmail.com'} style={{ zIndex: 1 }}>Contact Me</button>
+                        <div className='flex text-gray-400 max-[280px]:mb-5' style={{ zIndex: 1 }}>
                             <Link to="https://github.com/Jeffuz" className='icon-link'>
                                 <SiGithub size={35} />
                             </Link>
