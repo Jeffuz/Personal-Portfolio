@@ -10,6 +10,10 @@ const Navbar = () => {
         setNav(!nav)
     }
 
+    const closeNav = () => {
+        setNav(false);
+    }
+
     return (
         <div className='bg-[#262B30]'>
             <div className='flex justify-between items-center h-24 max-w-[1500px] mx-auto px-4 text-[#85F4FF]'>
@@ -58,27 +62,27 @@ const Navbar = () => {
                         <Link to={"/"}>JEFF ZHANG.</Link>
                     </h1>
                     <ul className='px-4 font-bold'>
-                        <li className='p-4 border-b '>
-                            <Link to="/">
+                        <li className='p-4 border-b'>
+                            <Link to="/" onClick={closeNav}>
                                 HOME
                             </Link>
                         </li>
-                        <li className='p-4 border-b '>
-                            <Link to="/experience">
+                        <li className='p-4 border-b'>
+                            <Link to="/experience" onClick={closeNav}>
                                 EXPERIENCE
                             </Link>
                         </li>
-                        <li className='p-4 border-b '>
-                            <Link to="/projects">
+                        <li className='p-4 border-b'>
+                            <Link to="/projects" onClick={closeNav}>
                                 PROJECTS
                             </Link>
                         </li>
-                        <li className='p-4 border-b '>
+                        <li className='p-4 border-b' onClick={closeNav}>
                             <Link to="/resume">
                                 RESUME
                             </Link>
                         </li>
-                        <li className='p-4 border-b '>
+                        <li className='p-4 border-b' onClick={closeNav}>
                             <Link to="/contact">
                                 CONTACT
                             </Link>
