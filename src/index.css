@@ -2,18 +2,3 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  background-color: #262B30;
-}
-
-.icon-link {
-  transition: transform 0.2s ease-in-out;
-}
-
-.icon-link:hover {
-  transform: rotate(-15deg);
-}
-
-body::-webkit-scrollbar {
-  display: none;
-}
