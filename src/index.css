@@ -2,3 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  background-color: #262B30;
+}
+
+:root {
+  font-family: Inter, sans-serif;
+  font-feature-settings: 'liga' 1, 'calt' 1; /* fix for Chrome */
+}
+@supports (font-variation-settings: normal) {
+  :root { font-family: InterVariable, sans-serif; }
+}
+
+.me_social_media_icons {
+  @apply text-slate-400 hover:text-slate-200 duration-200;
+}
+
