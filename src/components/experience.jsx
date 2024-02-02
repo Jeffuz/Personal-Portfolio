@@ -26,7 +26,7 @@ const Experience = () => {
       "jobRole": "Reader",
       "companyName": "Baskin Engineering at UCSC",
       "link": "https://organization.soe.ucsc.edu/reader-and-tutor-hiring",
-      "content": "",
+      "content": " Evaluated and provided constructive feedback on homework, papers, laboratory reports, and exams, ensuring alignment with course objectives using scripts. Engaged in regular meetings with the instructor to discuss grading criteria, address questions, and ensure consistency in evaluation standards",
       "tools": ["Python", "Bash"]
     },
     {
@@ -35,7 +35,7 @@ const Experience = () => {
       "jobRole": "Web Developer",
       "companyName": "Slug Gaming",
       "link": "https://www.sluggaming.club/",
-      "content": "",
+      "content": "Developed a dynamic website for a school gaming club, optimizing processes and minimizing operational overhead. Achieved a remarkable 1000% increase in site visitors post-successful deployment. Prioritized user experience with an intuitive interface.",
       "tools": ["React.js", "Tailwind CSS", "Firebase", "Figma"]
     },
     {
@@ -44,14 +44,14 @@ const Experience = () => {
       "jobRole": "CSI Tech Intern",
       "companyName": "Google",
       "link": "https://about.google/",
-      "content": "",
+      "content": "Created a website to raise awareness about littering at Google, engaged in cross-functional meetings for tech insights, and actively participated in career development workshops.",
       "tools": ["HTML", "CSS", "JavaScript"]
     }
   ]
 
   return (
     <div>
-      <div id='experience_header' className='header'>Experience</div>
+      <div id='experience_header' className='header border-l-2 pl-2'>Experience</div>
       {experienceObj.map((experience, index) => (
         <div key={index} className='flex flex-col mb-12'>
           {/* Time */}

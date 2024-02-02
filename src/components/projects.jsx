@@ -33,7 +33,7 @@ let projectObj = [
 const Projects = () => {
     return (
         <div>
-            <div id='project_header' className='header'>Projects</div>
+            <div id='project_header' className='header border-l-2 pl-2'>Projects</div>
             {projectObj.map((project, index) => (
                 <div key={index} className='mb-12'>
                     {/* Project Title  */}

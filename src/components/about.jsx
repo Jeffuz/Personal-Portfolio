@@ -3,7 +3,7 @@ import React from 'react'
 const About = () => {
     return (
         <div>
-            <div id='about_header' className='header md:hidden'>About</div>
+            <div id='about_header' className='header md:hidden border-l-2 pl-2'>About</div>
             <div id='about_content' className='text-slate-400 leading-7 text-md font-medium flex flex-col gap-4'>
                 <div>
                     As I entered college, I lacked a clear vision of my future path. It wasn't until an apprenticeship opportunity at
