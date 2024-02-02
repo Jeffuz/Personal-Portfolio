@@ -57,7 +57,7 @@ const Projects = () => {
                             </span>
                         ))}
                     </div>
-                    <div className='mb-4 flex items-center me_social_media_icons'><a href={`${project.link}`}><FaGithub size={35}/></a></div>
+                    <div className='mb-4 flex items-center me_social_media_icons'><a href={`${project.link}`}><FaGithub size={25}/></a></div>
                     {/* Image */}
                     <img src={`/project_images/${project.image}`} className='rounded border-2 border-slate-200/10 w-[230px] h-[115px]' loading='lazy' />
                 </div>
