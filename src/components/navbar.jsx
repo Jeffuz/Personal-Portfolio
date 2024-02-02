@@ -7,7 +7,7 @@ const Navbar = () => {
     let [open, setOpen] = useState(false);
     return (
         <nav className="bg-blue-100 drop-shadow-lg fixed w-full top-0">
-            <div className="bg-blue-100 max-w-7xl mx-auto flex lg:flex-row flex-col lg:justify-between lg:items-center lg:px-10 lg:my-0 lg:py-4 py-2">
+            <div className="bg-blue-100 max-w-7xl mx-auto flex md:hidden lg:flex-row flex-col lg:justify-between lg:items-center lg:px-10 lg:my-0 lg:py-4 py-2">
                 <Link to="/" className="text-[#0f1e2c] font-semibold flex flex-row lg:mx-0 mx-auto">
                     <div className="md:text-[30px] text-[24px]">
                         <ScrollLink
