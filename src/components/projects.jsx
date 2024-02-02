@@ -1,4 +1,5 @@
 import React from 'react'
+import { FaGithub } from "react-icons/fa";
 
 // "projTitle": "",
 // "link": "",
@@ -13,6 +14,13 @@ let projectObj = [
         "content": "EcoScan uses data scraped from Amazon to assess the environmental impact of products with the help of OpenAI, presenting key details like material composition and impacts from manufacturing and shipping.",
         "tools": ["React.js", "Tailwind CSS", "Flask", "Firebase"],
         "image": "ecoscan.png"
+    },
+    {
+        "projTitle": "Restaurant-Ordering-System",
+        "link": "https://github.com/Jeffuz/Restaurant-Ordering-System",
+        "content": "The Restaurant Ordering System is a point-of-sales system that allows customers to effortlessly browse menus and place orders. Simultaneously, it empowers restaurants with efficient order management, delivering a seamless and enhanced dining experience.",
+        "tools": ["MERN", "Tailwind CSS", "Firebase", "Figma"],
+        "image": "ros.png"
     },
     {
         "projTitle": "EduTrade",
@@ -49,8 +57,9 @@ const Projects = () => {
                             </span>
                         ))}
                     </div>
+                    <div className='mb-4 flex items-center me_social_media_icons'><a href={`${project.link}`}><FaGithub size={35}/></a></div>
                     {/* Image */}
-                    <img src={`/project_images/${project.image}`} className='rounded border-2 border-slate-200/10 w-[200px] h-[112.5px]' loading='lazy' />
+                    <img src={`/project_images/${project.image}`} className='rounded border-2 border-slate-200/10 w-[230px] h-[115px]' loading='lazy' />
                 </div>
             ))}
         </div>
