@@ -1,4 +1,5 @@
 import React from 'react'
+import { FaExternalLinkAlt } from "react-icons/fa";
 
 const Experience = () => {
 
@@ -16,8 +17,8 @@ const Experience = () => {
       "jobRole": "Software Developer",
       "companyName": "UCSC Police Department",
       "link": "https://police.ucsc.edu/",
-      "content": "",
-      "tools": [""]
+      "content": "Lead the implementation of an RFID inventory system, managing the deployment of tags, readers, and customized software to optimize future asset tracking and operational efficiency.",
+      "tools": ["IoT"]
     },
     {
       "startTime": "SEP 2023",
@@ -76,7 +77,10 @@ const Experience = () => {
         </div>
       ))}
       <div className='font-semibold text-slate-200 hover:text-blue-300 duration-300'>
-        <a href='resume.pdf' target='_blank'>View Full Résumé</a>
+        <a href='resume.pdf' target='_blank' className='flex gap-3 items-center'>
+          <div>View Full Résumé</div>
+          <FaExternalLinkAlt size={16} />
+        </a>
       </div>
     </div>
   )

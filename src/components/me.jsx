@@ -2,10 +2,11 @@ import React from 'react'
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { IoMail } from "react-icons/io5";
 import { SiDevpost } from "react-icons/si";
+import { FaGraduationCap } from "react-icons/fa";
 
 const Me = () => {
   return (
-    <div className='flex flex-col gap-3 w-[60%]'>
+    <div id='home_header' className='flex flex-col gap-3 w-[60%]'>
       {/* Name */}
       <div id='user_name' className='text-4xl font-bold text-slate-200'>Jeff Zhang</div>
       {/* Current Position */}
@@ -26,6 +27,15 @@ const Me = () => {
         <a href='https://devpost.com/jeffzhang0049'>
           <SiDevpost size={30} className='me_social_media_icons' />
         </a>
+      </div>
+      <div id='about_header' className='text-slate-200 font-semibold text-sm uppercase mt-9'>Education</div>
+      <div id='user_education' className='flex'>
+        <FaGraduationCap size={40} className='mr-5 text-blue-300'/>
+        <div className='flex flex-col '>
+          <span className='text-slate-200 text-md font-medium'>B.S. in Computer Engineering</span>
+          <span className='text-slate-400 text-sm font-medium'>2020 - Present</span>
+          <span className='text-slate-400 text-sm font-medium'>UC Santa Cruz</span>
+        </div>
       </div>
     </div>
   )

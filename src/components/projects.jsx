@@ -1,4 +1,3 @@
-import { px } from 'framer-motion'
 import React from 'react'
 
 // "projTitle": "",
