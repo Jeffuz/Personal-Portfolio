@@ -56,8 +56,8 @@ const Experience = () => {
           {/* Time */}
           <div id='experience_time' className='mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-500'>{experience.startTime} — {experience.endTime}</div>
           {/* Role and Company */}
-          <div className='flex items-baseline font-medium leading-tight text-slate-200 hover:text-blue-300 duration-300 text-base'>
-            <a href={`${experience.link}`}>
+          <div className='flex items-baseline font-bold leading-tight text-base'>
+            <a href={`${experience.link}`} className='text-slate-200 hover:text-blue-300 duration-300'>
               <span>{experience.jobRole}</span>
               <span>&nbsp;·&nbsp;</span>
               <span>{experience.companyName}</span>
@@ -68,7 +68,7 @@ const Experience = () => {
           {/* Tools */}
           <div id='experience_tools' className='mt-2'>
             {experience.tools.map((tool, index) => (
-              <span key={index} className='text-blue-300 bg-blue-300/10 px-3 py-1.5 rounded-full text-xs font-medium mr-1.5 mt-2'>
+              <span key={index} className='skill_theme'>
                 {tool}
               </span>
             ))}
