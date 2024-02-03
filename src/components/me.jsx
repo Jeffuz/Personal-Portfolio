@@ -7,6 +7,8 @@ import { FaGraduationCap } from "react-icons/fa";
 const Me = () => {
   return (
     <div id='home_header' className='flex flex-col gap-3'>
+      {/* Image */}
+      <img src='/profile_images/jeffv1.JPG' className='inline-block h-32 w-32 rounded-full'/>
       {/* Name */}
       <div id='user_name' className='text-4xl font-bold text-slate-200 w-max'>Jeff Zhang</div>
       {/* Current Position */}
