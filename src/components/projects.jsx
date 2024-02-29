@@ -19,7 +19,7 @@ let projectObj = [
         "projTitle": "Restaurant-Ordering-System",
         "link": "https://github.com/Jeffuz/Restaurant-Ordering-System",
         "content": "The Restaurant Ordering System is a point-of-sales system that allows customers to effortlessly browse menus and place orders. Simultaneously, it empowers restaurants with efficient order management, delivering a seamless and enhanced dining experience.",
-        "tools": ["MERN", "Tailwind CSS", "Firebase", "Figma"],
+        "tools": ["React.js", "Tailwind CSS", "Node.js", "Express.js", "MongoDB", "Firebase", "Figma"],
         "image": "ros.png"
     },
     {
@@ -50,11 +50,11 @@ const Projects = () => {
                     </div>
                     {/* Content */}
                     <div className='mt-2 text-sm leading-normal text-slate-400 font-medium'>{project.content}</div>
-                    <div className='mt-2 mb-4'>
+                    <div className='mb-4'>
                         {project.tools.map((tool, index) => (
-                            <span key={index} className='skill_theme'>
+                            <button key={index} className='skill_theme'>
                                 {tool}
-                            </span>
+                            </button>
                         ))}
                     </div>
                     <div className='mb-4 flex items-center me_social_media_icons'><a href={`${project.link}`}><FaGithub size={25}/></a></div>

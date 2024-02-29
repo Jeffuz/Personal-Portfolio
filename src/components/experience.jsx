@@ -17,8 +17,8 @@ const Experience = () => {
       "jobRole": "Software Developer",
       "companyName": "UCSC Police Department",
       "link": "https://police.ucsc.edu/",
-      "content": "Lead the implementation of an RFID inventory system, managing the deployment of tags, readers, and customized software to optimize future asset tracking and operational efficiency.",
-      "tools": ["IoT"]
+      "content": "Lead implementation of RFID inventory system and customized dashboard, incorporating microcontrollers for hardware integration and utilizing NERP stack for dashboard development. Collaborated closely with end users to gather feedback and iteratively refine designs in Figma, resulting in a user-centric interface optimized for usability and visual appeal. Guide the team utilizing SCRUM practices, ensuring efficient project management and timely delivery of milestones.",
+      "tools": ["React.js", "Material-UI", "Node.js", "Express.js", "PostgreSQL", "Docker", "Swagger API", "OpenAPI", "Jest", "Figma"]
     },
     {
       "startTime": "SEP 2023",
@@ -67,11 +67,11 @@ const Experience = () => {
           {/* Content */}
           <div id='experience_content' className='mt-2 text-sm leading-normal text-slate-400 font-medium'>{experience.content}</div>
           {/* Tools */}
-          <div id='experience_tools' className='mt-2'>
+          <div id='experience_tools'>
             {experience.tools.map((tool, index) => (
-              <span key={index} className='skill_theme'>
+              <button key={index} className='skill_theme'>
                 {tool}
-              </span>
+              </button>
             ))}
           </div>
         </div>
