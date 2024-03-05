@@ -14,7 +14,7 @@ const Experience = () => {
     {
       "startTime": "JAN 2024",
       "endTime": "Present",
-      "jobRole": "Software Developer",
+      "jobRole": "Software Engineer",
       "companyName": "UCSC Police Department",
       "link": "https://police.ucsc.edu/",
       "content": "Lead implementation of RFID inventory system and customized dashboard, incorporating microcontrollers for hardware integration and utilizing NERP stack for dashboard development. Collaborated closely with end users to gather feedback and iteratively refine designs in Figma, resulting in a user-centric interface optimized for usability and visual appeal. Guide the team utilizing SCRUM practices, ensuring efficient project management and timely delivery of milestones.",
