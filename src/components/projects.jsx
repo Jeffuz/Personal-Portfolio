@@ -9,6 +9,13 @@ import { FaGithub } from "react-icons/fa";
 
 let projectObj = [
     {
+        "projTitle": "Diligent",
+        "link": "https://github.com/Jeffuz/slack-clone",
+        "content": "Diligent is a Slack style messaging system that allows users to collaborate. Users can login securely via JWT authentication,join workspaces and converse within the channels, as well as customize settings to suit their individual preferences.",
+        "tools": ["React.js", "Material-UI", "Node.js", "Express.js", "PostgreSQL", "Docker", "Swagger API", "OpenAPI", "Jest", "React Testing Library", "Vitest", "Mock Service Worker"],
+        "image": "diligent.png"
+    },
+    {
         "projTitle": "EcoScan",
         "link": "https://github.com/Jeffuz/EcoScan",
         "content": "EcoScan uses data scraped from Amazon to assess the environmental impact of products with the help of OpenAI, presenting key details like material composition and impacts from manufacturing and shipping.",
@@ -46,7 +53,7 @@ const Projects = () => {
                 <div key={index} className='mb-12'>
                     {/* Project Title  */}
                     <div className='flex items-baseline font-bold leading-tight text-base'>
-                        <a href={`${project.link}`} className='text-slate-200 hover:text-blue-300 duration-300'>{project.projTitle}</a>
+                        <a href={`${project.link}`} target='_blank' className='text-slate-200 hover:text-blue-300 duration-300'>{project.projTitle}</a>
                     </div>
                     {/* Content */}
                     <div className='mt-2 text-sm leading-normal text-slate-400 font-medium'>{project.content}</div>
@@ -57,7 +64,7 @@ const Projects = () => {
                             </button>
                         ))}
                     </div>
-                    <div className='mb-4 flex items-center me_social_media_icons'><a href={`${project.link}`}><FaGithub size={25}/></a></div>
+                    {/* <div className='mb-4 flex items-center me_social_media_icons'><a href={`${project.link}`}><FaGithub size={25}/></a></div> */}
                     {/* Image */}
                     <img src={`/project_images/${project.image}`} className='rounded border-2 border-slate-200/10 w-[230px] h-[115px]' loading='lazy' />
                 </div>

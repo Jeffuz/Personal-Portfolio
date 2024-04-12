@@ -58,7 +58,7 @@ const Experience = () => {
           <div id='experience_time' className='mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-500'>{experience.startTime} — {experience.endTime}</div>
           {/* Role and Company */}
           <div className='flex items-baseline font-bold leading-tight text-base'>
-            <a href={`${experience.link}`} className='text-slate-200 hover:text-blue-300 duration-300'>
+            <a href={`${experience.link}`} target='_blank' className='text-slate-200 hover:text-blue-300 duration-300'>
               <span>{experience.jobRole}</span>
               <span>&nbsp;·&nbsp;</span>
               <span>{experience.companyName}</span>
