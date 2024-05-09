@@ -13,7 +13,7 @@ const Me = () => {
       <div id='user_name' className='text-4xl font-bold text-slate-200 w-max'>Jeff Zhang</div>
       {/* Current Position */}
       <div id='user_current_position' className='text-lg font-semibold text-slate-200'>
-        Software Engineer at UCSC Police Department
+        Software Engineer Intern at UCSC Police Department
       </div>
       {/*  Slogan */}
       <div id='user_slogan' className='text-slate-400 text-md font-medium'>My passion lies in crafting web apps and software solutions from scratch.</div>
