@@ -17,8 +17,8 @@ const Experience = () => {
       "jobRole": "Software Engineer",
       "companyName": "UCSC Police Department",
       "link": "https://police.ucsc.edu/",
-      "content": "Lead implementation of RFID inventory system and customized dashboard, incorporating microcontrollers for hardware integration and utilizing NERP stack for dashboard development. Collaborated closely with end users to gather feedback and iteratively refine designs in Figma, resulting in a user-centric interface optimized for usability and visual appeal. Guide the team utilizing SCRUM practices, ensuring efficient project management and timely delivery of milestones.",
-      "tools": ["React.js", "Material-UI", "Node.js", "Express.js", "PostgreSQL", "Docker", "Swagger API", "OpenAPI", "Jest", "Figma"]
+      "content": "Lead RFID inventory management system, enabling officers to efficiently track and audit equipment. Currently developing a dashboard for location-based scanning and auditing from RFID reader using React.js and Material-UI, and implemented RESTful API endpoints with Express, Node.js, and OpenAPI to manage inventory operations, achieving 100% code coverage using Supertest. I have collaborated closely with end users to gather feedback and iteratively refine designs in Figma, resulting in a user-centric interface optimized for usability and visual appeal.",
+      "tools": ["React.js", "Material-UI", "Node.js", "Express.js", "PostgreSQL", "Docker", "OpenAPI", "Swagger API", "Supertest", "Figma"]
     },
     {
       "startTime": "SEP 2023",
