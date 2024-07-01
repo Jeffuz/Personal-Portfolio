@@ -13,16 +13,16 @@ const Experience = () => {
     // "tools": [""]
     {
       "startTime": "JAN 2024",
-      "endTime": "Present",
+      "endTime": "JUN 2024",
       "jobRole": "Software Engineer",
       "companyName": "UCSC Police Department",
       "link": "https://police.ucsc.edu/",
-      "content": "Lead RFID inventory management system, enabling officers to efficiently track and audit equipment. Currently developing a dashboard for location-based scanning and auditing from RFID reader using React.js and Material-UI, and implemented RESTful API endpoints with Express, Node.js, and OpenAPI to manage inventory operations, achieving 100% code coverage using Supertest. I have collaborated closely with end users to gather feedback and iteratively refine designs in Figma, resulting in a user-centric interface optimized for usability and visual appeal.",
-      "tools": ["React.js", "Material-UI", "Node.js", "Express.js", "PostgreSQL", "Docker", "OpenAPI", "Swagger API", "Supertest", "Figma"]
+      "content": "Streamlined inventory management by developing an RFID system with comprehensive inventory views, automated history tracking, and a dynamic dashboard for location-based scanning and auditing using RFID readers, enhancing operational efficiency and accuracy. Enhanced user experience and operational efficiency by leveraging React.js and Material-UI for responsive frontend development, and managing inventory operations through robust RESTful API endpoints with Express.js, Node.js, OpenAPI, Docker, and PostgreSQL ensuring consistent usability and system reliability. Achieved 100% code coverage on frontend and backend using Vitest, React Testing Library, Mock Service Worker, Jest, and Supertest, ensuring comprehensive and reliable testing.",
+      "tools": ["React.js", "Material-UI", "Node.js", "Express.js", "PostgreSQL", "Docker", "OpenAPI", "Swagger API", "Vitest", "React Testing Library", "Mock Service Worker","Jest", "Supertest", "Figma"]
     },
     {
       "startTime": "SEP 2023",
-      "endTime": "Present",
+      "endTime": "JUN 2024",
       "jobRole": "Reader",
       "companyName": "Baskin Engineering at UCSC",
       "link": "https://organization.soe.ucsc.edu/reader-and-tutor-hiring",
@@ -31,7 +31,7 @@ const Experience = () => {
     },
     {
       "startTime": "JUN 2023",
-      "endTime": "Present",
+      "endTime": "JUN 2024",
       "jobRole": "Web Developer",
       "companyName": "Slug Gaming",
       "link": "https://www.sluggaming.club/",
@@ -69,7 +69,7 @@ const Experience = () => {
           {/* Tools */}
           <div id='experience_tools'>
             {experience.tools.map((tool, index) => (
-              <button key={index} className='skill_theme'>
+              <button disabled key={index} className='skill_theme'>
                 {tool}
               </button>
             ))}
@@ -77,7 +77,8 @@ const Experience = () => {
         </div>
       ))}
       <div className='font-semibold text-slate-200 hover:text-blue-300 duration-300'>
-        <a href='resume.pdf' target='_blank' className='flex gap-3 items-center'>
+        {/* <a href='resume.pdf' target='_blank' className='flex gap-3 items-center'> */}
+        <a href='https://docs.google.com/document/d/1FKPtMoHCKeZ3yp7qb6fcvejohE0XpaNo/edit?usp=sharing&ouid=111757976668818703393&rtpof=true&sd=true' target='_blank' className='flex gap-3 items-center'>
           <div>View Full Résumé</div>
           <FaExternalLinkAlt size={16} />
         </a>

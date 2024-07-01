@@ -9,10 +9,17 @@ import { FaGithub } from "react-icons/fa";
 
 let projectObj = [
     {
+        "projTitle": "Eyes2Ears",
+        "link": "https://github.com/Jeffuz/Eyes2Ears",
+        "content": "Eyes2Ears is a mobile application designed to assist visually impaired individuals by utilizing advanced AI technologies. The app allows users to capture images using their smartphone camera, which are then processed in real-time to provide audio descriptions of their surroundings.",
+        "tools": ["React Native", "Expo", "OpenAI", "Firebase"],
+        "image": "Eyes2Ears.png"
+    },
+    {
         "projTitle": "Diligent",
         "link": "https://github.com/Jeffuz/slack-clone",
         "content": "Diligent is a Slack style messaging system that allows users to collaborate. Users can login securely via JWT authentication,join workspaces and converse within the channels, as well as customize settings to suit their individual preferences.",
-        "tools": ["React.js", "Material-UI", "Node.js", "Express.js", "PostgreSQL", "Docker", "Swagger API", "OpenAPI", "Jest", "React Testing Library", "Vitest", "Mock Service Worker"],
+        "tools": ["React.js", "Material-UI", "Node.js", "Express.js", "PostgreSQL", "Docker", "OpenAPI", "Swagger API", "Vitest", "React Testing Library", "Mock Service Worker","Jest", "Supertest"],
         "image": "diligent.png"
     },
     {
@@ -59,7 +66,7 @@ const Projects = () => {
                     <div className='mt-2 text-sm leading-normal text-slate-400 font-medium'>{project.content}</div>
                     <div className='mb-4'>
                         {project.tools.map((tool, index) => (
-                            <button key={index} className='skill_theme'>
+                            <button disabled key={index} className='skill_theme'>
                                 {tool}
                             </button>
                         ))}

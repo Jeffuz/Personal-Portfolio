@@ -4,7 +4,7 @@ import About from '../components/about'
 import Experience from '../components/experience'
 import Projects from '../components/projects'
 import Contact from '../components/contact'
-import { useRef, useEffect } from 'react'
+// import { useRef, useEffect } from 'react'
 
 
 /* Citations: 
@@ -14,26 +14,26 @@ import { useRef, useEffect } from 'react'
 
 const Home = () => {
 
-    const heroRef = useRef(null);
+    // const heroRef = useRef(null);
 
-    useEffect(() => {
-        const updateMousePosition = (ev) => {
-            if (!heroRef.current) return;
-            const { clientX, clientY } = ev;
-            heroRef.current.style.setProperty("--x", `${clientX}px`);
-            heroRef.current.style.setProperty("--y", `${clientY}px`);
-        };
+    // useEffect(() => {
+    //     const updateMousePosition = (ev) => {
+    //         if (!heroRef.current) return;
+    //         const { clientX, clientY } = ev;
+    //         heroRef.current.style.setProperty("--x", `${clientX}px`);
+    //         heroRef.current.style.setProperty("--y", `${clientY}px`);
+    //     };
 
-        window.addEventListener("mousemove", updateMousePosition);
+    //     window.addEventListener("mousemove", updateMousePosition);
 
-        return () => {
-            window.removeEventListener("mousemove", updateMousePosition);
-        };
-    }, []);
+    //     return () => {
+    //         window.removeEventListener("mousemove", updateMousePosition);
+    //     };
+    // }, []);
 
     return (
         <>
-            <style jsx>
+            {/* <style jsx>
                 {`
                 .hero {
                     position: absolute;
@@ -55,7 +55,7 @@ const Home = () => {
                 }
             `}
             </style>
-            <div ref={heroRef} className="hero z-1">
+            <div ref={heroRef} className="hero z-1"> */}
                 <div className='flex-col md:flex-row flex md:h-screen md:px-20 lg:px-36'>
                     <div className='app_module_format mt-24 md:mt-12 lg:pl-24 xl:pl-32'><Me /></div>
                     <div className='md:overflow-auto lg:pl-12 xl:w-[700px]'>
@@ -65,7 +65,7 @@ const Home = () => {
                         <div className='app_module_format'><Contact /></div>
                     </div>
                 </div>
-            </div>
+            {/* </div> */}
         </>
     )
 }
