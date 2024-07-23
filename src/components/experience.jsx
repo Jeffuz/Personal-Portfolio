@@ -12,6 +12,15 @@ const Experience = () => {
     // "content": "",
     // "tools": [""]
     {
+      "startTime": "JUL 2024",
+      "endTime": "PRESENT",
+      "jobRole": "Software Engineering Fellow",
+      "companyName": "Headstarter AI",
+      "link": "https://headstarter.co/",
+      "content": "Incoming Software Engineer Fellow",
+      "tools": ["HTML", "CSS", "React.js", "Next.js", "Firebase", "AWS"]
+    },
+    {
       "startTime": "JAN 2024",
       "endTime": "JUN 2024",
       "jobRole": "Software Engineer",

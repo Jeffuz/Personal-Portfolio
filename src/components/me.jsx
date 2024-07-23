@@ -13,7 +13,7 @@ const Me = () => {
       <div id='user_name' className='text-4xl font-bold text-slate-200 w-max'>Jeff Zhang</div>
       {/* Current Position */}
       <div id='user_current_position' className='text-lg font-semibold text-slate-200'>
-        Seeking Full Stack roles
+        Software Engineer Fellow at Headstarter AI
       </div>
       {/*  Slogan */}
       <div id='user_slogan' className='text-slate-400 text-md font-medium'>My passion lies in crafting web apps and software solutions from scratch.</div>
@@ -37,7 +37,7 @@ const Me = () => {
         <FaGraduationCap size={40} className='mr-5 text-blue-300' />
         <div className='flex flex-col '>
           <span className='text-slate-200 text-md font-medium'>B.S. in Computer Engineering</span>
-          <span className='text-slate-400 text-sm font-medium'>2020 - Present</span>
+          <span className='text-slate-400 text-sm font-medium'>2020 - 2024</span>
           <span className='text-slate-400 text-sm font-medium'>UC Santa Cruz</span>
         </div>
       </div>

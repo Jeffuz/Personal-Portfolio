@@ -13,7 +13,7 @@ const About = () => {
                     <span className='about_bold_importance'> <a href='https://www.sluggaming.club/' target='_blank'>student-led gaming club</a></span>.
                 </div>
                 <div>
-                    Currently, my primary focus involves leading a project and developing an application for the
+                    Recently, I was involved in leading a project and developing an application for the
                     <span className='about_bold_importance'> <a href='https://police.ucsc.edu/' target='_blank'>UCSC Police Department</a></span>.
                     I take pleasure in creating products that not only meet but surpass the expectations of customers and users.
 
