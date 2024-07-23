@@ -54,7 +54,7 @@ const Experience = () => {
       "companyName": "Google",
       "link": "https://about.google/",
       "content": "Created a website to raise awareness about littering at Google, engaged in cross-functional meetings for tech insights, and actively participated in career development workshops.",
-      "tools": ["HTML", "CSS", "JavaScript"]
+      "tools": ["HTML", "CSS"]
     }
   ]
 
