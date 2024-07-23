@@ -16,7 +16,7 @@ const Me = () => {
         Software Engineer Fellow at Headstarter AI
       </div>
       {/*  Slogan */}
-      <div id='user_slogan' className='text-slate-400 text-md font-medium'>My passion lies in crafting web apps and software solutions from scratch.</div>
+      <div id='user_slogan' className='text-slate-400 text-md font-medium'>Seeking Fullstack, Frontend, and Backend roles</div>
       {/* Social Media Icons */}
       <div id='user_socials' className='flex gap-5'>
         <a href='mailto:jeffzhang0049@gmail.com'>
