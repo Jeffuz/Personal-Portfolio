@@ -9,6 +9,13 @@ import { FaGithub } from "react-icons/fa";
 
 let projectObj = [
     {
+        "projTitle": "myCraving",
+        "link": "https://github.com/Jeffuz/myCraving",
+        "content": "myCraving is a pantry management application designed to help users keep track of their ingredients, generate AI-driven recipes, and gain insights through data analytics. This app aims to make cooking and meal planning more efficient and enjoyable.",
+        "tools": ["Next.js", "React.js", "Material-UI", "Firebase", "Open AI"],
+        "image": "myCraving.png"
+    },
+    {
         "projTitle": "Eyes2Ears",
         "link": "https://github.com/Jeffuz/Eyes2Ears",
         "content": "Eyes2Ears is a mobile application designed to assist visually impaired individuals by utilizing advanced AI technologies. The app allows users to capture images using their smartphone camera, which are then processed in real-time to provide audio descriptions of their surroundings.",
