@@ -26,7 +26,7 @@ const Experience = () => {
       "jobRole": "Software Engineer",
       "companyName": "UCSC Police Department",
       "link": "https://police.ucsc.edu/",
-      "content": "Streamlined inventory management by developing an RFID system with comprehensive inventory views, automated history tracking, and a dynamic dashboard for location-based scanning and auditing using RFID readers, enhancing operational efficiency and accuracy. Enhanced user experience and operational efficiency by leveraging React.js and Material-UI for responsive frontend development, and managing inventory operations through robust RESTful API endpoints with Express.js, Node.js, OpenAPI, Docker, and PostgreSQL ensuring consistent usability and system reliability. Achieved 100% code coverage on frontend and backend using Vitest, React Testing Library, Mock Service Worker, Jest, and Supertest, ensuring comprehensive and reliable testing.",
+      "content": "Streamlined inventory management by developing an RFID system that provided comprehensive inventory views, automated history tracking, and a dynamic dashboard for location-based scanning and auditing. This system significantly enhanced operational efficiency and accuracy by automating key processes and enabling real-time insights. Additionally, ensured robust system reliability and consistent usability across the platform.",
       "tools": ["React.js", "Material-UI", "Node.js", "Express.js", "PostgreSQL", "Docker", "OpenAPI", "Swagger API", "Vitest", "React Testing Library", "Mock Service Worker","Jest", "Supertest", "Figma"]
     },
     {
