@@ -13,12 +13,12 @@ const Experience = () => {
     // "tools": [""]
     {
       "startTime": "JUL 2024",
-      "endTime": "PRESENT",
+      "endTime": "SEP 2024",
       "jobRole": "Software Engineering Fellow",
       "companyName": "Headstarter AI",
       "link": "https://headstarter.co/",
-      "content": "Incoming Software Engineer Fellow",
-      "tools": ["HTML", "CSS", "React.js", "Next.js", "Firebase", "AWS"]
+      "content": "Built and deployed 5 AI projects in 5 weeks following agile methodologies with weekly sprints and incorporated CI/CD practices for iterative deployment. Developed a mobile and web application for a tutoring center incorporating lessons, quizzes, and progress tracking for elementary school students, along with admin views for monitoring student progress.",
+      "tools": ["Next.js", "React.js", "React Native", "Tailwind CSS", "Material-UI", "Firebase", "OpenAI", "LangChain", "Pinecone", "Figma"]
     },
     {
       "startTime": "JAN 2024",

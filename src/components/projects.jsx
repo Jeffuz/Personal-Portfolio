@@ -12,14 +12,14 @@ let projectObj = [
         "projTitle": "AI-Customer-Support",
         "link": "https://github.com/Jeffuz/AI-Customer-Support",
         "content": "AI Customer Support is an AI-powered chatbot application designed to handle various customer support scenarios. It leverages advanced language models to provide intelligent and context-aware responses. The app includes features such as task-specific modes and the ability to enhance responses with external content using Retrieval-Augmented Generation (RAG).",
-        "tools": ["Next.js", "React.js", "Tailwind CSS", "Open AI", "LangChain", "Pinecone"],
+        "tools": ["Next.js", "React.js", "Tailwind CSS", "OpenAI", "LangChain", "Pinecone"],
         "image": "ai-cutomer-support.png"
     },
     {
         "projTitle": "myCraving",
         "link": "https://github.com/Jeffuz/myCraving",
         "content": "myCraving is a pantry management application designed to help users keep track of their ingredients, generate AI-driven recipes, and gain insights through data analytics. This app aims to make cooking and meal planning more efficient and enjoyable.",
-        "tools": ["Next.js", "React.js", "Material-UI", "Firebase", "Open AI"],
+        "tools": ["Next.js", "React.js", "Material-UI", "Firebase", "OpenAI"],
         "image": "myCraving.png"
     },
     {
