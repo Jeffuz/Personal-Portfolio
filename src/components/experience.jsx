@@ -86,8 +86,8 @@ const Experience = () => {
         </div>
       ))}
       <div className='font-semibold text-slate-200 hover:text-blue-300 duration-300'>
-        {/* <a href='resume.pdf' target='_blank' className='flex gap-3 items-center'> */}
-        <a href='https://docs.google.com/document/d/1FKPtMoHCKeZ3yp7qb6fcvejohE0XpaNo/edit?usp=sharing&ouid=111757976668818703393&rtpof=true&sd=true' target='_blank' className='flex gap-3 items-center'>
+        <a href='resume.pdf' target='_blank' className='flex gap-3 items-center'>
+        {/* <a href='https://docs.google.com/document/d/1FKPtMoHCKeZ3yp7qb6fcvejohE0XpaNo/edit?usp=sharing&ouid=111757976668818703393&rtpof=true&sd=true' target='_blank' className='flex gap-3 items-center'> */}
           <div>View Full Résumé</div>
           <FaExternalLinkAlt size={16} />
         </a>
