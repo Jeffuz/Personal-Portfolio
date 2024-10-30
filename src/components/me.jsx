@@ -13,10 +13,10 @@ const Me = () => {
       <div id='user_name' className='text-4xl font-bold text-slate-200 w-max'>Jeff Zhang</div>
       {/* Current Position */}
       <div id='user_current_position' className='text-lg font-semibold text-slate-200'>
-        Software Engineer Fellow at Headstarter AI
+        Student at University of California, Santa Cruz
       </div>
       {/*  Slogan */}
-      <div id='user_slogan' className='text-slate-400 text-md font-medium'>Seeking Fullstack, Frontend, and Backend roles</div>
+      <div id='user_slogan' className='text-slate-400 text-md font-medium'>Seeking Software Engineering, Frontend, Fullstack Intern or Full Time roles.</div>
       {/* Social Media Icons */}
       <div id='user_socials' className='flex gap-5'>
         <a href='mailto:jeffzhang0049@gmail.com'>

@@ -9,6 +9,13 @@ import { FaGithub } from "react-icons/fa";
 
 let projectObj = [
     {
+        "projTitle": "Healora",
+        "link": "https://devpost.com/software/helora",
+        "content": "Healora is an AI-powered healthcare platform designed to streamline patient care by integrating real-time health monitoring, virtual assistance, and efficient data management for healthcare providers.",
+        "tools": ["Next.js", "Tailwind CSS", "Shadcn", "Framer Motion", "Hume AI", "Groq", "Fetch.AI", "Supabase", "FastAPI", "Figma"],
+        "image": "healora.png"
+    },
+    {
         "projTitle": "AI-Customer-Support",
         "link": "https://github.com/Jeffuz/AI-Customer-Support",
         "content": "AI Customer Support is an AI-powered chatbot application designed to handle various customer support scenarios. It leverages advanced language models to provide intelligent and context-aware responses. The app includes features such as task-specific modes and the ability to enhance responses with external content using Retrieval-Augmented Generation (RAG).",
