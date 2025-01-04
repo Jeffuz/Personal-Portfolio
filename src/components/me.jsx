@@ -16,7 +16,7 @@ const Me = () => {
         Student at University of California, Santa Cruz
       </div>
       {/*  Slogan */}
-      <div id='user_slogan' className='text-slate-400 text-md font-medium'>Seeking Software Engineering, Frontend, Fullstack Intern or Full Time roles.</div>
+      <div id='user_slogan' className='text-slate-400 text-md font-medium'>Seeking Frontend, Full Stack, or Software Engineering roles.</div>
       {/* Social Media Icons */}
       <div id='user_socials' className='flex gap-5'>
         <a href='mailto:jeffzhang0049@gmail.com'>
