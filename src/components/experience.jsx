@@ -53,7 +53,7 @@ const Experience = () => {
       "jobRole": "Front End Software Engineer",
       "companyName": "Slug Gaming",
       "link": "https://www.sluggaming.club/",
-      "content": "Developed a dynamic website for a school gaming club, optimizing processes and minimizing operational overhead. Achieved a remarkable 1000% increase in site visitors post-successful deployment. Prioritized user experience with an intuitive interface.",
+      "content": "At Slug Gaming, I implemented a responsive website using React and Tailwind CSS, leveraging JSON files to dynamically manage data and streamline operations. By revitalizing the website based on user feedback, I enhanced engagement and significantly improved the club’s digital presence, creating a more accessible and interactive platform for members.",
       "tools": ["React.js", "Tailwind CSS", "Firebase", "Figma"]
     },
     {
